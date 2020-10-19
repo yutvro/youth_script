@@ -4,9 +4,9 @@
 name: 10000
 
 on:
-  workflow_dispatch:
-  schedule:
-     - cron: '*/12 * * * *'
+#   workflow_dispatch:
+#   schedule:
+#      - cron: '*/12 * * * *'
   watch:
     types: started
 
