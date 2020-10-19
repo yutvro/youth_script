@@ -1,3 +1,13 @@
+const exec = require("child_process").execSync;
+const fs = require("fs");
+const download = require("download");
+const smartReplace = require("./smartReplace");
+
+// 公共变量
+const Secrets = {
+    cookieVal: process.env.COOKIE,
+};
+
 let phone = '';//您的手机号
 
 function sign_10000() {
